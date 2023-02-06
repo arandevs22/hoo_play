@@ -1,0 +1,1028 @@
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOO TV</title>
+
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="css/uikit.css" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- UIkit JS -->
+    <script src="js/uikit.js"></script>
+    <script src="js/uikit-icons.min.js"></script>
+
+    <!-- Kit´s code fontawesome -->
+    <script src="https://kit.fontawesome.com/d0e2d731d5.js" crossorigin="anonymous"></script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+
+    <!-- JS -->
+    <script src="js/master.js"></script>
+</head>
+<body class="uk-margin-bottom">
+
+    <nav class="uk-navbar-container uk-margin-small-bottom uk-sticky-fixed serie" uk-navbar uk-sticky>
+        <div class="uk-navbar-left">
+            <button class="btn-menu" type="button" uk-toggle="target: #offcanvas-nav-primary">
+                <i class="fa-solid fa-bars menu"></i>
+            </button>
+            <div id="offcanvas-nav-primary" uk-offcanvas="overlay: true">
+                <div class="uk-offcanvas-bar uk-flex uk-flex-column">
+                    <button class="uk-offcanvas-close" type="button" uk-close></button>
+                    <ul class="uk-nav uk-nav-primary">
+                        <li class="uk-nav-header uk-margin-bottom">
+                            <img src="img/hoo_tv_logo.svg" class="logo-menu" alt="">
+                        </li>
+                        <li class="uk-active uk-margin-small-bottom">
+                            <a href="index.html">
+                            <span class="uk-margin-small-right">
+                                <i class="fa-solid fa-house checked"></i>
+                            </span> Inicio
+                        </a>
+                        </li>
+                        <li class="uk-margin-small-bottom">
+                            <a href="television.html">
+                                <span class="uk-margin-small-right">
+                                    <i class="fa-solid fa-tv checked"></i>
+                                </span> Television
+                            </a>
+                        </li>
+                        <li class="uk-margin-small-bottom">
+                            <a href="movies.html">
+                                <span class="uk-margin-small-right">
+                                    <i class="fa-solid fa-film checked"></i>
+                                </span> Peliculas
+                            </a>
+                        </li>
+                        <li class="uk-margin-small-bottom">
+                            <a href="series.html">
+                                <span class="uk-margin-small-right">
+                                    <i class="fa-solid fa-clapperboard checked"></i>
+                                </span> Series
+                            </a>
+                        </li>
+                        <li class="uk-margin-small-bottom">
+                            <a href="games.html">
+                                <span class="uk-margin-small-right">
+                                    <i class="fa-solid fa-gamepad checked"></i>
+                                </span> Juegos
+                            </a>
+                        </li>
+                        <li class="uk-margin-small-bottom">
+                            <a href="music.html">
+                                <span class="uk-margin-small-right">
+                                    <i class="fa-solid fa-music checked"></i>
+                                </span> Musica
+                            </a>
+                        </li>
+                        <li>
+                            <a href="politicas.html">
+                                <span class="uk-margin-small-right">
+                                    <i class="fa-solid fa-circle-info checked"></i>
+                                </span> Informacion
+                            </a>
+                        </li>
+                    </ul>
+            
+                </div>
+            </div>
+        </div>
+        <div class="uk-navbar-center">
+            <img class="logo" src="img/hoo_tv_logo.svg" alt="hoo_tv_logo">
+        </div>
+        <div class="uk-navbar-right">
+            <a class="uk-link-reset" href="http://action_search">
+                <i class="fa-solid fa-magnifying-glass menu"></i>
+            </a>
+        </div>
+    </nav>
+    
+    <div>
+        <div uk-slider="center: true">
+            <ul class="uk-slider-items uk-grid-small">
+                <li class="uk-width-3-4 home">
+                    <a href="go:mv302">
+                        <img class="banner" src="img/banners/banner_black_panther.jpg" alt="">
+                    </a>
+                </li>
+                <li class="uk-width-3-4 home">
+                    <a href="series/wolf_pack.html">
+                        <img class="banner" src="img/banners/banner_wolf_pack.jpg" alt="">
+                    </a>
+                </li>
+                <li class="uk-width-3-4 home">
+                    <a href="go:mv282">
+                        <img class="banner" src="img/banners/megan_banner.jpg" alt="">
+                    </a>
+                </li>
+                <li class="uk-width-3-4 home">
+                    <a href="go:mv281">
+                        <img class="banner" src="img/banners/gato_con_botas_banner.jpg" alt="">
+                    </a>
+                </li>
+                <li class="uk-width-3-4 home">
+                    <a href="series/the_last_of_us.html">
+                        <img class="banner" src="img/banners/Serie de estreno.jpg" alt="">
+                    </a>
+                </li>
+                <li class="uk-width-3-4 home">
+                    <a href="go:mv060">
+                        <img class="banner" src="img/banners/pinocho.jpg" alt="">
+                    </a>
+                </li>
+                <li class="uk-width-3-4 home">
+                    <a href="go:mv024">
+                        <img class="banner" src="img/banners/black_adam.jpg" alt="">
+                    </a>
+                </li>
+                <li class="uk-width-3-4 home">
+                    <a href="go:mv119">
+                        <img class="banner" src="img/banners/the_batman.jpg" alt="">
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <div class="uk-clearfix uk-container">
+                <div class="uk-float-right">
+                </div>
+                <div class="uk-float-left uk-margin-small-bottom slider-title">
+                    <span>Playlists <span class="color-text">Populares</span></span>
+                </div>
+            </div>
+            <div class="portada" uk-slider>
+                <ul class="uk-slider-items uk-child-width-1-3 uk-child-width-1-5@m uk-grid-small">
+                    <li>
+                        <a href="go:pl01">
+                          <img
+                            class="cover movie"
+                            src="img/albums/top_hits_mexico.jpg"
+                            alt=""
+                          />
+                        </a>
+                        <p class="uk-text-center">Top Hits México</p>
+                    </li>
+                    <li>
+                        <a href="go:pl02">
+                          <img class="cover movie" src="img/albums/fuego_latino.jpg" alt="" />
+                        </a>
+                        <p class="uk-text-center">Fuego Latino</p>
+                    </li>
+                    <li>
+                        <a href="go:pl04">
+                          <img
+                            class="cover movie"
+                            src="img/albums/reggaeton_hits.jpg"
+                            alt=""
+                          />
+                        </a>
+                        <p class="uk-text-center">Reggaeton Hits</p>
+                    </li>
+                    <li>
+                        <a href="go:pl09">
+                          <img
+                            class="cover movie"
+                            src="img/albums/reggaeton_fresco.jpg"
+                            alt=""
+                          />
+                        </a>
+                        <p class="uk-text-center">Reggeaton Fresco</p>
+                    </li>
+                    <li>
+                        <a href="go:pl022">
+                          <img class="cover movie" src="img/albums/retropop_00s.jpg" alt="" />
+                        </a>
+                        <p class="uk-text-center">Retropop 00s</p>
+                    </li>
+                    <li>
+                        <a href="go:pl010">
+                          <img class="cover movie" src="img/albums/pop_mexico.jpg" alt="" />
+                        </a>
+                        <p class="uk-text-center">Pop México</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div>
+            <div class="uk-clearfix uk-container">
+                <div class="uk-float-right">
+                </div>
+                <div class="uk-float-left uk-margin-small-bottom slider-title">
+                    <span>Series <span class="color-text">Populares</span></span>
+                </div>
+            </div>
+            <div class="portada" uk-slider>
+                <ul class="uk-slider-items uk-child-width-1-3 uk-child-width-1-5@m uk-grid-small">
+                    <li>
+                        <a href="series/the_last_of_us.html">
+                            <img class="cover movie" src="img/posters/the_last_of_us.webp" alt="">
+                        </a>
+                        <p class="uk-text-center">The Last Of Us</p>
+                    </li>
+                    <li>
+                        <a href="series/merlina.html">
+                          <img class="cover movie" src="img/posters/merlina.webp" alt="" />
+                        </a>
+                        <p class="uk-text-center">
+                          Merlina
+                        </p>
+                      </li>
+                    <li>
+                        <a href="series/la_casa_del_dragon.html">
+                            <img class="cover movie" src="img/posters/la_casa_del_dragon.webp" alt="">
+                        </a>
+                        <p class="uk-text-center">La casa del dragón</p>
+                    </li>
+                    <li>
+                        <a href="series/los_anillos_de_poder.html">
+                            <img class="cover movie" src="img/posters/los_anillos_de_poder.webp" alt="">
+                        </a>
+                        <p class="uk-text-center">Los anillos de poder</p>
+                    </li>
+                    <li>
+                        <a href="series/she_hulk.html">
+                            <img class="cover movie" src="img/posters/she_hulk.webp" alt="">
+                        </a>
+                        <p class="uk-text-center">She Hulk</p>
+                    </li>
+                    <li>
+                        <a href="series/halo.html">
+                            <img class="cover movie" src="img/posters/halo.webp" alt="">
+                        </a>
+                        <p class="uk-text-center">Halo</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div>
+            <div class="uk-clearfix uk-container">
+                <div class="uk-float-right">
+                </div>
+                <div class="uk-float-left uk-margin-small-bottom slider-title">
+                    <span>Canales <span class="color-text">Infantiles</span></span>
+                </div>
+            </div>
+            <div class="portada" uk-slider>
+                <ul class="uk-slider-items uk-child-width-1-3 uk-child-width-1-5@m uk-grid-small">
+                    <li data-color="kids">
+                        <a href="go:ch92">
+                          <img class="cover" src="img/logos/nick_jr.jpg" alt="" />
+                        </a>
+                        <p class="uk-text-center">Nick Jr</p>
+                    </li>
+                    <li data-color="kids">
+                        <a href="go:ch80">
+                          <img class="cover" src="img/logos/disney_jr.jpg" alt="" />
+                        </a>
+                        <p class="uk-text-center">Disney Jr</p>
+                    </li>
+                    <li data-color="kids">
+                        <a href="go:ch217">
+                          <img class="cover" src="img/logos/baby_tv.jpg" alt="" />
+                        </a>
+                        <p class="uk-text-center">Baby TV</p>
+                    </li>
+                    <li data-color="kids">
+                        <a href="go:ch91">
+                          <img class="cover" src="img/logos/teen_nick.jpg" alt="" />
+                        </a>
+                        <p class="uk-text-center">TeenNick</p>
+                    </li>
+                    <li data-color="kids">
+                        <a href="go:ch93">
+                          <img class="cover" src="img/logos/nick.jpg" alt="" />
+                        </a>
+                        <p class="uk-text-center">Nick</p>
+                    </li>
+                    <li data-color="kids">
+                        <a href="go:ch78">
+                          <img class="cover" src="img/logos/discovery_kids.jpg" alt="" />
+                        </a>
+                        <p class="uk-text-center">Discovery Kids</p>
+                    </li>
+                    <li data-color="kids">
+                        <a href="go:ch62">
+                          <img class="cover" src="img/logos/cartoon_network.jpg" alt="" />
+                        </a>
+                        <p class="uk-text-center">Cartoon Network</p>
+                    </li>
+                    <li data-color="kids">
+                        <a href="go:ch98">
+                          <img class="cover" src="img/logos/tooncast.jpg" alt="" />
+                        </a>
+                        <p class="uk-text-center">Tooncast</p>
+                    </li>
+                    <li data-color="kids">
+                        <a href="go:ch79">
+                          <img class="cover" src="img/logos/disney_channel.jpg" alt="" />
+                        </a>
+                        <p class="uk-text-center">Disney Channel</p>
+                    </li>
+                    <li data-color="kids">
+                        <a href="go:ch94">
+                          <img class="cover" src="img/logos/nick_music.jpg" alt="" />
+                        </a>
+                        <p class="uk-text-center">Nick Music</p>
+                    </li>
+                    <li data-color="kids">
+                        <a href="go:ch61">
+                          <img class="cover" src="img/logos/cartoonito.jpg" alt="" />
+                        </a>
+                        <p class="uk-text-center">Cartoonito</p>
+                    </li>
+                    <li data-color="kids">
+                        <a href="go:ch60">
+                          <img class="cover" src="img/logos/bitme.jpg" alt="" />
+                        </a>
+                        <p class="uk-text-center">BitMe</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div>
+            <div class="uk-clearfix uk-container">
+                <div class="uk-float-right">
+                </div>
+                <div class="uk-float-left uk-margin-small-bottom slider-title">
+                    <span>Películas <span class="color-text">Recientes</span></span>
+                </div>
+            </div>
+            <div class="portada" uk-slider>
+                <ul class="uk-slider-items uk-child-width-1-3 uk-child-width-1-5@m uk-grid-small">
+                     <li data-color="comics">
+                        <a href="go:mv302">
+                          <img
+                            class="cover movie"
+                            src="img/posters/black_panther_wakanda_forever.webp"
+                            alt=""
+                          />
+                        </a>
+                        <p class="uk-text-center">
+                          Black Panther:<br />Wakanda Forever
+                        </p>
+                     </li>
+                     <li data-color="accion">
+                        <a href="go:mv319">
+                          <img
+                            class="cover movie"
+                            src="img/posters/wwe_royal_rumble_2023.webp"
+                            alt=""
+                          />
+                        </a>
+                        <p class="uk-text-center">
+                          WWE Royal Rumble: 2023
+                        </p>
+                     </li>
+                     <li data-color="comedia">
+                        <a href="go:mv303">
+                          <img
+                            class="cover movie"
+                            src="img/posters/darby_y_los_espiritus.webp"
+                            alt=""
+                          />
+                        </a>
+                        <p class="uk-text-center">
+                          Darby y los espíritus
+                        </p>
+                     </li>
+                     <li data-color="accion">
+                        <a href="go:mv304">
+                          <img
+                            class="cover movie"
+                            src="img/posters/dead_zone_operacion_rescate.webp"
+                            alt=""
+                          />
+                        </a>
+                        <p class="uk-text-center">
+                          Dead Zone:<br />Operación Rescate
+                        </p>
+                     </li>
+                     <li data-color="accion">
+                        <a href="go:mv305">
+                          <img
+                            class="cover movie"
+                            src="img/posters/detective_knight_independence.webp"
+                            alt=""
+                          />
+                        </a>
+                        <p class="uk-text-center">
+                          Detective Knight: Independence
+                        </p>
+                     </li>
+                     <li data-color="accion">
+                        <a href="go:mv306">
+                          <img
+                            class="cover movie"
+                            src="img/posters/mar_de_sangre.webp"
+                            alt=""
+                          />
+                        </a>
+                        <p class="uk-text-center">
+                          Mar de sangre
+                        </p>
+                     </li>
+                     <li data-color="ficcion">
+                        <a href="go:mv307">
+                          <img class="cover movie" src="img/posters/jung_e.webp" alt="" />
+                        </a>
+                        <p class="uk-text-center">
+                          Jung_E
+                        </p>
+                     </li>
+                     <li data-color="comedia">
+                        <a href="go:mv308">
+                          <img
+                            class="cover movie"
+                            src="img/posters/la_familia_tiene_un_precio.webp"
+                            alt=""
+                          />
+                        </a>
+                        <p class="uk-text-center">
+                          La Familia tiene un precio
+                        </p>
+                     </li>
+                     <li data-color="romance">
+                        <a href="go:mv309">
+                          <img
+                            class="cover movie"
+                            src="img/posters/bodas_de_plomo.webp"
+                            alt=""
+                          />
+                        </a>
+                        <p class="uk-text-center">
+                          Bodas de plomo
+                        </p>
+                     </li>
+                     <li data-color="fantasia">
+                        <a href="go:mv310">
+                          <img
+                            class="cover movie"
+                            src="img/posters/teen_wolf_the_movie.webp"
+                            alt=""
+                          />
+                        </a>
+                        <p class="uk-text-center">
+                          Teen Wolf:<br />The Movie
+                        </p>
+                     </li>
+                     <li data-color="crimen">
+                        <a href="go:mv311">
+                          <img
+                            class="cover movie"
+                            src="img/posters/transfusion.webp"
+                            alt=""
+                          />
+                        </a>
+                        <p class="uk-text-center">
+                          Transfusión
+                        </p>
+                     </li>
+                     <li data-color="comedia">
+                        <a href="go:mv312">
+                          <img class="cover movie" src="img/posters/ustedes.webp" alt="" />
+                        </a>
+                        <p class="uk-text-center">
+                          Ustedes
+                        </p>
+                      </li>
+                     <li data-color="accion">
+                        <a href="go:mv301">
+                          <img
+                            class="cover movie"
+                            src="img/posters/fuerza_bruta.webp"
+                            alt=""
+                          />
+                        </a>
+                        <p class="uk-text-center">
+                          Fuerza Bruta
+                        </p>
+                     </li>
+                     <li data-color="drama">
+                        <a href="go:mv283">
+                          <img class="cover movie" src="img/posters/babylon.webp" alt="" />
+                        </a>
+                        <p class="uk-text-center">
+                          Babylon
+                        </p>
+                      </li>
+                      <li data-color="terror">
+                        <a href="go:mv282">
+                          <img class="cover movie" src="img/posters/m3gan.webp" alt="" />
+                        </a>
+                        <p class="uk-text-center">
+                          M3gan
+                        </p>
+                      </li>
+                      <li data-color="animacion">
+                        <a href="go:mv281">
+                          <img
+                            class="cover movie"
+                            src="img/posters/gato_con_botas_2.webp"
+                            alt=""
+                          />
+                        </a>
+                        <p class="uk-text-center">
+                          Gato con Botas: El último deseo
+                        </p>
+                      </li>
+                      <li data-color="terror">
+                        <a href="go:mv280">
+                          <img
+                            class="cover movie"
+                            src="img/posters/invocando_al_demonio.webp"
+                            alt=""
+                          />
+                        </a>
+                        <p class="uk-text-center">
+                          Invocando al demonio
+                        </p>
+                      </li>
+                      <li data-color="terror">
+                        <a href="go:mv279">
+                          <img class="cover movie" src="img/posters/mal_de_ojo.webp" alt="" />
+                        </a>
+                        <p class="uk-text-center">
+                          Mal de Ojo
+                        </p>
+                      </li>
+                      <li data-color="animacion">
+                        <a href="go:mv278">
+                          <img
+                            class="cover movie"
+                            src="img/posters/un_mundo_extraño.webp"
+                            alt=""
+                          />
+                        </a>
+                        <p class="uk-text-center">
+                          Un mundo extraño
+                        </p>
+                      </li>
+                      <li data-color="comedia">
+                        <a href="go:mv272">
+                          <img
+                            class="cover movie"
+                            src="img/posters/fiesta_en_casa.webp"
+                            alt=""
+                          />
+                        </a>
+                        <p class="uk-text-center">
+                          Fiesta en casa
+                        </p>
+                      </li>
+                      <li data-color="accion">
+                        <a href="go:mv271">
+                          <img
+                            class="cover movie"
+                            src="img/posters/el_asesino_perfecto.webp"
+                            alt=""
+                          />
+                        </a>
+                        <p class="uk-text-center">
+                          El Asesino perfecto
+                        </p>
+                      </li>
+                      <li data-color="drama">
+                        <a href="go:mv270">
+                          <img
+                            class="cover movie"
+                            src="img/posters/historia_de_honor.webp"
+                            alt=""
+                          />
+                        </a>
+                        <p class="uk-text-center">
+                          Historia de honor
+                        </p>
+                      </li>
+              
+                      <li data-color="comedia">
+                        <a href="go:mv269">
+                          <img
+                            class="cover movie"
+                            src="img/posters/desconectados.webp"
+                            alt=""
+                          />
+                        </a>
+                        <p class="uk-text-center">
+                          Desconectados
+                        </p>
+                      </li>
+                </ul>
+            </div>
+        </div>
+        <div>
+            <div class="uk-clearfix uk-container">
+                <div class="uk-float-right">
+                </div>
+                <div class="uk-float-left uk-margin-small-bottom slider-title">
+                    <span>Canales <span class="color-text">Deportes</span></span>
+                </div>
+            </div>
+            <div class="portada" uk-slider>
+                <ul class="uk-slider-items uk-child-width-1-3 uk-child-width-1-5@m uk-grid-small">
+                    <li>
+                        <a href="go:ch124">
+                            <img class="cover" src="img/logos/tudn.jpg" alt="tudn_logo">
+                        </a>
+                        <p class="uk-text-center">TUDN</p>
+                    </li>
+                    <li>
+                        <a href="go:ch130">
+                            <img class="cover" src="img/logos/espn_2.jpg" alt="">
+                        </a>
+                        <p class="uk-text-center">ESPN 2</p>
+                    </li>
+                    <li>
+                        <a href="go:ch129">
+                            <img class="cover" src="img/logos/fox_sports_2.jpg" alt="">
+                        </a>
+                        <p class="uk-text-center">FOX Sports 2</p>
+                    </li>
+                    <li>
+                        <a href="go:ch125">
+                            <img class="cover" src="img/logos/espn_deportes.jpg" alt="">
+                        </a>
+                        <p class="uk-text-center">ESPN Deportes</p>
+                    </li>
+                    <li>
+                        <a href="go:ch224">
+                            <img class="cover" src="img/logos/fox_sports_3.jpg" alt="">
+                        </a>
+                        <p class="uk-text-center">FOX Sports 3</p>
+                    </li>
+                    <li>
+                        <a href="go:ch212">
+                            <img class="cover" src="img/logos/espn_3.jpg" alt="bein_sports_espanol_logo">
+                        </a>
+                        <p class="uk-text-center">ESPN 3</p>
+                    </li>
+                    <li>
+                        <a href="go:ch128">
+                            <img class="cover" src="img/logos/tnt_sports.jpg" alt="tnt_sports_logo">
+                        </a>
+                        <p class="uk-text-center">TNT Sports</p>
+                    </li>
+                    <li>
+                        <a href="go:ch127">
+                            <img class="cover" src="img/logos/directv_sports.jpg" alt="directv_sports_logo">
+                        </a>
+                        <p class="uk-text-center">Directv Sports</p>
+                    </li>
+                    <li>
+                        <a href="go:ch126">
+                            <img class="cover" src="img/logos/fox_deportes.jpg" alt="fox_deportes_logo">
+                        </a>
+                        <p class="uk-text-center">FOX Deportes</p>
+                    </li>
+                    <li>
+                        <a href="go:ch150">
+                            <img class="cover" src="img/logos/fox_sports_premium.jpg" alt="fox_sports_logo">
+                        </a>
+                        <p class="uk-text-center">FOX Sports Premium</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div>
+            <div class="uk-clearfix uk-container">
+                <div class="uk-float-right">
+                </div>
+                <div class="uk-float-left uk-margin-small-bottom slider-title">
+                    <span>Películas <span class="color-text">Populares</span></span>
+                </div>
+            </div>
+            <div class="portada" uk-slider>
+                <ul class="uk-slider-items uk-child-width-1-3 uk-child-width-1-5@m uk-grid-small">
+                    <li data-color="comics">
+                        <a href="go:mv302">
+                          <img
+                            class="cover movie"
+                            src="img/posters/black_panther_wakanda_forever.webp"
+                            alt=""
+                          />
+                        </a>
+                        <p class="uk-text-center">
+                          Black Panther:<br />Wakanda Forever
+                        </p>
+                    </li>
+                    <li data-color="terror">
+                        <a href="go:mv282">
+                          <img class="cover movie" src="img/posters/m3gan.webp" alt="" />
+                        </a>
+                        <p class="uk-text-center">
+                          M3gan
+                        </p>
+                      </li>
+                      <li data-color="animacion">
+                        <a href="go:mv281">
+                          <img
+                            class="cover movie"
+                            src="img/posters/gato_con_botas_2.webp"
+                            alt=""
+                          />
+                        </a>
+                        <p class="uk-text-center">
+                          Gato con Botas: El último deseo
+                        </p>
+                    </li>
+                    <li>
+                        <a href="go:mv060">
+                            <img class="cover movie" src="img/posters/pinocho_del_guillermo_del_toro.webp" alt="">
+                        </a>
+                        <p class="uk-text-center">Pinocho de Guillermo del Toro</p>
+                    </li>
+                    <li>
+                        <a href="go:mv238">
+                            <img class="cover movie" src="img/posters/sonrie.webp" alt="">
+                        </a>
+                        <p class="uk-text-center">Sonríe</p>
+                    </li>
+                    <li>
+                        <a href="go:mv016">
+                            <img class="cover movie" src="img/posters/ambulance_plan_de_huida.webp" alt="">
+                        </a>
+                        <p class="uk-text-center">Ambulance: Plan de huida</p>
+                    </li>
+                    <li>
+                        <a href="go:mv143">
+                            <img class="cover movie" src="img/posters/top_gun_maverick.webp" alt="">
+                        </a>
+                        <p class="uk-text-center">Top Gun: Maverick</p>
+                    </li>
+                    <li>
+                        <a href="go:mv073">
+                            <img class="cover movie" src="img/posters/jurasic_world_dominion.webp" alt="">
+                        </a>
+                        <p class="uk-text-center">Jurassic World Dominio</p>
+                    </li>
+                    <li>
+                        <a href="go:mv024">
+                            <img class="cover movie" src="img/posters/black_adam.webp" alt="">
+                        </a>
+                        <p class="uk-text-center">Black Adam</p>
+                    </li>
+                    <li>
+                        <a href="go:mv054">
+                            <img class="cover movie" src="img/posters/todo_en_todas_partes_al_mismo_tiempo.webp" alt="">
+                        </a>
+                        <p class="uk-text-center">Todo en todas partes...</p>
+                    </li>
+                    <li>
+                        <a href="go:mv100">
+                            <img class="cover movie" src="img/posters/nop.webp" alt="">
+                        </a>
+                        <p class="uk-text-center">¡NOP!</p>
+                    </li>
+                    <li>
+                        <a href="go:mv120">
+                            <img class="cover movie" src="img/posters/telefono_negro.webp" alt="">
+                        </a>
+                        <p class="uk-text-center">El Teléfono Negro</p>
+                    </li>
+                    <li>
+                        <a href="go:mv090">
+                            <img class="cover movie" src="img/posters/minions_nace_un_villano.webp" alt="">
+                        </a>
+                        <p class="uk-text-center">Minions: Nace un villano</p>
+                    </li>
+                    <li>
+                        <a href="go:mv021">
+                            <img class="cover movie" src="img/posters/bestia.webp" alt="">
+                        </a>
+                        <p class="uk-text-center">Bestia</p>
+                    </li>
+                    <li>
+                        <a href="go:mv103">
+                            <img class="cover movie" src="img/posters/la_huerfana_el_origen.webp" alt="">
+                        </a>
+                        <p class="uk-text-center">La Huérfana: El Origen</p>
+                    </li>
+                    <li>
+                        <a href="go:mv142">
+                            <img class="cover movie" src="img/posters/pasaje_al_paraiso.webp" alt="">
+                        </a>
+                        <p class="uk-text-center">Pasaje al Paraíso</span></p>
+                    </li>
+                    <li>
+                        <a href="go:mv031">
+                            <img class="cover movie" src="img/posters/tren_bala.webp" alt="">
+                        </a>
+                        <p class="uk-text-center">Tren Bala</p>
+                    </li>
+                    <li>
+                        <a href="go:mv147">
+                            <img class="cover movie" src="img/posters/x.webp" alt="">
+                        </a>
+                        <p class="uk-text-center">X</p>
+                    </li>
+                    <li>
+                        <a href="go:mv113">
+                            <img class="cover movie" src="img/posters/sonic_2.webp" alt="">
+                        </a>
+                        <p class="uk-text-center">Sonic 2</p>
+                    </li>
+                    <li>
+                        <a href="go:mv061">
+                            <img class="cover movie" src="img/posters/halloween_la_noche_final.webp" alt="">
+                        </a>
+                        <p class="uk-text-center">Halloween: La Noche Final</p>
+                    </li>
+                    <li>
+                        <a href="go:mv119">
+                            <img class="cover movie" src="img/posters/batman.webp" alt="">
+                        </a>
+                        <p class="uk-text-center">Batman</p>
+                    </li>
+                    <li>
+                        <a href="go:mv127">
+                            <img class="cover movie" src="img/posters/invitacion_al_infierno.webp" alt="">
+                        </a>
+                        <p class="uk-text-center">Invitación al infierno</p>
+                    </li>
+                    <li>
+                        <a href="go:mv042">
+                            <img class="cover movie" src="img/posters/dc_liga_de_supermascotas.webp" alt="">
+                        </a>
+                        <p class="uk-text-center">DC Liga de Supermascotas</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- <div>
+            <div class="uk-clearfix uk-container">
+                <div class="uk-float-right">
+                </div>
+                <div class="uk-float-left uk-margin-small-bottom">
+                    <span>24/7 <span class="color-text">Cine</span></span>
+                </div>
+            </div>
+            <div class="portada" uk-slider>
+                <ul class="uk-slider-items uk-child-width-1-3 uk-child-width-1-5@m uk-grid-small">
+                    <li>
+                        <a href="go:ch134">
+                            <img class="cover" src="img/logos/cine_marvel.jpg" alt="">
+                        </a>
+                        <p class="uk-text-center">Cine Marvel</p>
+                    </li>
+                    <li>
+                        <a href="go:ch135">
+                            <img class="cover" src="img/logos/cine_dc_universe.jpg" alt="">
+                        </a>
+                        <p class="uk-text-center">Cine DC Universe</p>
+                    </li>
+                    <li>
+                        <a href="go:ch136">
+                            <img class="cover" src="img/logos/cine_accion.jpg" alt="">
+                        </a>
+                        <p class="uk-text-center">Cine Acción</p>
+                    </li>
+                    <li>
+                        <a href="go:ch137">
+                            <img class="cover" src="img/logos/cine_comedia.jpg" alt="">
+                        </a>
+                        <p class="uk-text-center">Cine Comedia</p>
+                    </li>
+                    <li>
+                        <a href="go:ch138">
+                            <img class="cover" src="img/logos/cine_infantil.jpg" alt="">
+                        </a>
+                        <p class="uk-text-center">Cine Infantil</p>
+                    </li>
+                    <li>
+                        <a href="go:ch139">
+                            <img class="cover" src="img/logos/cine_romance.jpg" alt="">
+                        </a>
+                        <p class="uk-text-center">Cine Romance</p>
+                    </li>
+                    <li>
+                        <a href="go:ch140">
+                            <img class="cover" src="img/logos/cine_terror.jpg" alt="">
+                        </a>
+                        <p class="uk-text-center">Cine Terror</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div>
+            <div class="uk-clearfix uk-container">
+                <div class="uk-float-right">
+                </div>
+                <div class="uk-float-left uk-margin-small-bottom">
+                    <span>24/7 <span class="color-text">Caricaturas</span></span>
+                </div>
+            </div>
+            <div class="portada" uk-slider>
+                <ul class="uk-slider-items uk-child-width-1-3 uk-child-width-1-5@m uk-grid-small">
+                    <li>
+                        <a href="go:ch141">
+                            <img class="cover" src="img/logos/bob_esponja.jpg" alt="">
+                        </a>
+                        <p class="uk-text-center">Bob Esponja</p>
+                    </li>
+                    <li>
+                        <a href="go:ch142">
+                            <img class="cover" src="img/logos/caballeros_del_zodiaco.jpg" alt="">
+                        </a>
+                        <p class="uk-text-center">Caballeros del Zodiaco</p>
+                    </li>
+                    <li>
+                        <a href="go:ch143">
+                            <img class="cover" src="img/logos/coraje.jpg" alt="">
+                        </a>
+                        <p class="uk-text-center">Coraje: El Perro cobarde</p>
+                    </li>
+                    <li>
+                        <a href="go:ch144">
+                            <img class="cover" src="img/logos/dragon_ball_z.jpg" alt="">
+                        </a>
+                        <p class="uk-text-center">Dragon Ball Z</p>
+                    </li>
+                    <li>
+                        <a href="go:ch145">
+                            <img class="cover" src="img/logos/naruto.jpg" alt="">
+                        </a>
+                        <p class="uk-text-center">Naruto</p>
+                    </li>
+                    <li>
+                        <a href="go:ch146">
+                            <img class="cover" src="img/logos/los_simpsons.jpg" alt="">
+                        </a>
+                        <p class="uk-text-center">Los Simpsons</p>
+                    </li>
+                    <li>
+                        <a href="go:ch147">
+                            <img class="cover" src="img/logos/pokemon.jpg" alt="">
+                        </a>
+                        <p class="uk-text-center">Pokemon</p>
+                    </li>
+                    <li>
+                        <a href="go:ch148">
+                            <img class="cover" src="img/logos/super_campeones.jpg" alt="">
+                        </a>
+                        <p class="uk-text-center">Super Campeones</p>
+                    </li>
+                    <li>
+                        <a href="go:ch149">
+                            <img class="cover" src="img/logos/yu_gi_oh.jpg" alt="">
+                        </a>
+                        <p class="uk-text-center">Yu Gi Oh!</p>
+                    </li>
+                </ul>
+            </div>
+        </div> -->
+        <!-- Ads Banner Down Start -->
+        <!-- <div class="uk-text-center uk-margin-bottom">
+            <script type="text/javascript">
+                atOptions = {
+                    'key' : 'ff028547e7d6e650c00aa9fbf9f8acd5',
+                    'format' : 'iframe',
+                    'height' : 50,
+                    'width' : 320,
+                    'params' : {}
+                };
+                document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://www.effectivecreativeformat.com/ff028547e7d6e650c00aa9fbf9f8acd5/invoke.js"></scr' + 'ipt>');
+            </script>
+        </div> -->
+        <!-- Ads Banner Down End -->
+    </div>
+
+
+    <!-- Firebase -->
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.14.0/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.14.0/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+            apiKey: "AIzaSyCQ56GQkRDewybQgM4JVl6KV-GsUzjGqp8",
+            authDomain: "hoo-tv.firebaseapp.com",
+            projectId: "hoo-tv",
+            storageBucket: "hoo-tv.appspot.com",
+            messagingSenderId: "89403429553",
+            appId: "1:89403429553:web:e876414e7cc2b34b26c890",
+            measurementId: "G-116KD135X9"
+        };
+
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+    </script>
+
+
+</body>
+
+</html>
